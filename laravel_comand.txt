@@ -1,0 +1,116 @@
+----------------------------------------laravel---------------------------------------
+sudo chmod +x xampp-linux-x64-7.4.7-0-installer.run
+sudo su
+./xampp-linux-x64-7.4.7-0-installer.run
+sudo /opt/lampp/lampp start
+
+sudo /opt/lampp/uninstall
+
+sudo apt-get install composer
+sudo apt install php-dom
+composer create-project laravel/laravel Project
+composer require laravel/ui
+php artisan ui vue --auth
+php artisan make:middleware CheckAge
+php artisan serve
+php artisan down
+php artisan up
+php artisan make:model District -mcr
+php artisan make:request PostBidRequest
+php artisan make:migration student
+php artisan migrate
+sudo apt-get install php-mysql
+php artisan migrate
+php artisan migrate:rollback
+php artisan migrate
+php artisan make:controller student
+php artisan make:controller StudentController --resource
+php artisan make:seeder UsersTableSeeder
+php artisan db:seed
+php artisan make:model Student
+php artisan migrate:refresh --seed
+
+
+php artisan make:event UserCreated
+php artisan make:listener UserCreatedListener
+php artisan make:listener UserCreatedListener -e UserCreated
+
+
+
+
+
+php artisan config:cache
+php artisan key:generate
+php artisan make:rule MatchOldPassword
+php artisan make:resource ProductCollection
+php artisan make:request ProfileRequest
+composer require fzaninotto/faker				[for costome image resizer]
+
+php artisan vendor:publish --provider="Proengsoft\JsValidation\JsValidationServiceProvider"
+
+composer require intervention/image
+
+----------------------------------------------------------------------------------------
+matrix admin
+wellcome Mr. Name 
+sudo chmod -R 777 /opt/lampp/htdocs
+sudo /opt/lampp/lampp start
+web extensions
+1.Wappalyzer
+2.Enhancer for YouTube™
+https://htmlformatter.com/
+
+
+codebool-product.com
+email : info@codebool.com
+pass  : 123456
+
+tweaks,dash to panel, gnome ,gtk-3 themes
+
+webpack for minifide to encode css and js.
+
+1.formvalidation.io [js library file for form validation ]
+2.
+
+--------------to download code first time---------
+git clone https://github.com/
+composer install
+composer update
+.env.example file to .env
+set database name
+php artisan key:generate
+php artisan migrate
+php artisan serve
+---------------to slove confiex problem code--------------
+
+git pull origin master
+git checkout -b branch_name
+git pull origin branch_name
+git add -A
+git commit -m ""
+git push origin branch_name
+
+---------------to upload code--------------
+git checkout -b branch_name
+git add -A
+git commit -m ""
+git push origin branch_name
+git status
+--------------to download 2nd time or else-----------
+git pull origin master
+
+--------------to upload code first time in project-----------
+git init
+git remote add origin https://github.com/kiri2ka/EBajara.git
+git add -A
+git commit -m "everything"
+git push origin master
+
+
+
+sudo docker-compose up --build
+
+
+
+-------------------------------------------------------------------------------------------
+
