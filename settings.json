@@ -8,21 +8,21 @@
 	"breadcrumbs.filePath": "last",
 
 	"cSpell.userWords": [
-    "Arrayable",
-    "Csrf",
-    "Dispatchable",
-    "Macroable",
-    "Otwell",
-    "PJAX",
-    "Queueable",
-    "Toastr",
-    "laravel",
-    "requestvaladaion",
-    "swal",
-    "sweetalert",
-    "toastify",
-    "upzilla"
-  ],
+		"Arrayable",
+		"Csrf",
+		"Dispatchable",
+		"Macroable",
+		"Otwell",
+		"PJAX",
+		"Queueable",
+		"Toastr",
+		"laravel",
+		"requestvaladaion",
+		"swal",
+		"sweetalert",
+		"toastify",
+		"upzilla"
+	],
 	"editor.minimap.enabled": false,
 	"editor.renderWhitespace": "none",
 	"editor.matchBrackets": "always",
@@ -193,9 +193,9 @@
 	},
 
 	"[php]": {
-		"editor.defaultFormatter": "bmewburn.vscode-intelephense-client"
+		"editor.defaultFormatter": "kokororin.vscode-phpfmt"
 	},
-	// "php-docblocker.extra": ["@author Shawon mynameisshawon325@email.com"],
+	// "php-docblocker.extra": ["@author komol kiri2kaofficial@email.com"],
 
 	"php.suggest.basic": false,
 	"php.validate.enable": false,
@@ -207,7 +207,7 @@
 	"phpfmt.cakephp": false,
 	"phpfmt.enable_auto_align": true,
 
-	"phpcs.standard": "/home/shawon/phpcs.xml",
+	"phpcs.standard": "/home/komol/phpcs.xml",
 	"phpcs.enable": true,
 	"phpcs.autoConfigSearch": true,
 	"phpcs.showWarnings": true,
@@ -282,17 +282,19 @@
 	},
 	"beautify.language": {
 		"html": ["blade", "html"]
-  },
-  "liveServer.settings.useBrowserPreview": true,
-  "highlight-matching-tag.highlightFromContent": true,
-  "blade.format.enable": true,
-  "editor.linkedEditing": true,
-  "[html]": {
-    "editor.defaultFormatter": "apility.beautify-blade"
-  },
-  "[blade]": {
-    "editor.defaultFormatter": "amirmarmul.laravel-blade-vscode"
-  },
-  "git.autofetch": true
+	},
+	"liveServer.settings.useBrowserPreview": true,
+	"highlight-matching-tag.highlightFromContent": true,
+	"blade.format.enable": true,
+	"editor.linkedEditing": true,
+	"[html]": {
+		"editor.defaultFormatter": "apility.beautify-blade"
+	},
+	"[blade]": {
+		"editor.defaultFormatter": "amirmarmul.laravel-blade-vscode"
+	},
+	"git.autofetch": true,
+	"explorer.confirmDelete": false,
+	"workbench.startupEditor": "newUntitledFile",
+	"material-icon-theme.hidesExplorerArrows": true
 }
-
