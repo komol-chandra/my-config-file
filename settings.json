@@ -261,9 +261,7 @@
 		"editor.defaultFormatter": "octref.vetur",
 		"editor.tabSize": 2,
 		"editor.wordWrap": "off"
-	},
-
-	"window.zoomLevel": 0.3,
+  },
 	"window.titleBarStyle": "custom",
 	"workbench.editor.enablePreview": false,
 	"workbench.iconTheme": "material-icon-theme",
@@ -291,10 +289,13 @@
 		"editor.defaultFormatter": "apility.beautify-blade"
 	},
 	"[blade]": {
-		"editor.defaultFormatter": "amirmarmul.laravel-blade-vscode"
+		"editor.defaultFormatter": "onecentlin.laravel-blade"
 	},
 	"git.autofetch": true,
 	"explorer.confirmDelete": false,
 	"workbench.startupEditor": "newUntitledFile",
-	"material-icon-theme.hidesExplorerArrows": true
+  "material-icon-theme.hidesExplorerArrows": true,
+  "yaml.schemas": {
+    "file:///home/kiri2ka/.vscode/extensions/atlassian.atlascode-2.9.0/resources/schemas/pipelines-schema.json": "bitbucket-pipelines.yml"
+  }
 }
