@@ -1,0 +1,23 @@
+xampp setup
+-----------
+
+sudo chmod +x xampp-linux-x64-7.4.7-0-installer.run
+sudo su
+./xampp-linux-x64-7.4.7-0-installer.run
+sudo chmod -R 777 /opt/lampp/htdocs
+sudo /opt/lampp/lampp start
+sudo /opt/lampp/uninstall
+
+sudo apt install php-dom
+sudo apt install php-fpm php-mysql php-zip php-mysql php-curl php-gd php-intl php-imagick php-imap php-memcache  php-pspell php-sqlite3 php-tidy php-xmlrpc php-xsl php-mbstring
+
+composer-2
+----------
+sudo apt update && sudo apt install wget php-cli php-zip unzip curl
+curl -sS https://getcomposer.org/installer |php
+sudo mv composer.phar /usr/local/bin/composer
+
+node js
+--------
+curl -fsSL https://deb.nodesource.com/setup_lts.x | sudo -E bash -
+sudo apt-get install -y nodejs
