@@ -262,7 +262,6 @@
 		"editor.tabSize": 2,
 		"editor.wordWrap": "off"
   },
-	"window.titleBarStyle": "custom",
 	"workbench.editor.enablePreview": false,
 	"workbench.iconTheme": "material-icon-theme",
 	"workbench.editor.untitled.labelFormat": "name",
@@ -272,7 +271,7 @@
 	},
 	"workbench.editor.wrapTabs": true,
 	"workbench.editor.decorations.badges": true,
-	"workbench.colorTheme": "Community Material Theme High Contrast",
+	"workbench.colorTheme": "Cobalt2",
 	"scm.inputFontSize": 14,
 	"launch": {
 		"configurations": [],
@@ -286,7 +285,7 @@
 	"blade.format.enable": true,
 	"editor.linkedEditing": true,
 	"[html]": {
-		"editor.defaultFormatter": "apility.beautify-blade"
+		"editor.defaultFormatter": "HookyQR.beautify"
 	},
 	"[blade]": {
 		"editor.defaultFormatter": "onecentlin.laravel-blade"
@@ -296,6 +295,8 @@
 	"workbench.startupEditor": "newUntitledFile",
   "material-icon-theme.hidesExplorerArrows": true,
   "yaml.schemas": {
-    "file:///home/kiri2ka/.vscode/extensions/atlassian.atlascode-2.9.0/resources/schemas/pipelines-schema.json": "bitbucket-pipelines.yml"
-  }
+    "file:///home/kiri2ka/.vscode/extensions/atlassian.atlascode-2.9.1/resources/schemas/pipelines-schema.json": "bitbucket-pipelines.yml"
+  },
+  "atlascode.jira.enabled": true,
+  "security.workspace.trust.untrustedFiles": "newWindow"
 }
