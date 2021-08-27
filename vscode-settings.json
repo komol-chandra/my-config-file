@@ -271,7 +271,7 @@
 	},
 	"workbench.editor.wrapTabs": true,
 	"workbench.editor.decorations.badges": true,
-	"workbench.colorTheme": "Cobalt2",
+	"workbench.colorTheme": "Learn with Sumit - Peace of the eye",
 	"scm.inputFontSize": 14,
 	"launch": {
 		"configurations": [],
@@ -298,5 +298,6 @@
     "file:///home/kiri2ka/.vscode/extensions/atlassian.atlascode-2.9.1/resources/schemas/pipelines-schema.json": "bitbucket-pipelines.yml"
   },
   "atlascode.jira.enabled": true,
-  "security.workspace.trust.untrustedFiles": "newWindow"
+  "security.workspace.trust.untrustedFiles": "newWindow",
+  "window.titleBarStyle": "custom"
 }
