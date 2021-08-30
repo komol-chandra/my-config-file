@@ -33,3 +33,8 @@ Install Code::Blocks
 sudo apt install codeblocks
 wget http://security.ubuntu.com/ubuntu/pool/universe/c/codeblocks/codeblocks_20.03-3_amd64.deb
 sudo dpkg -i codeblocks_20.03-3_amd64.deb
+
+unrar file
+--------------
+sudo apt install unrar
+sudo unrar e -r  rarfilename_with_extension
