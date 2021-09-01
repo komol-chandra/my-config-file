@@ -38,3 +38,7 @@ unrar file
 --------------
 sudo apt install unrar
 sudo unrar e -r  rarfilename_with_extension
+
+git setup
+-----------------
+git config credential.helper store
