@@ -8,8 +8,7 @@ sudo chmod -R 777 /opt/lampp/htdocs
 sudo /opt/lampp/lampp start
 sudo /opt/lampp/uninstall
 
-sudo apt install php-dom
-sudo apt install php-fpm php-mysql php-zip php-mysql php-curl php-gd php-intl php-imagick php-imap php-memcache  php-pspell php-sqlite3 php-tidy php-xmlrpc php-xsl php-mbstring
+sudo apt install php-dom php-fpm php-mysql php-zip php-mysql php-curl php-gd php-intl php-imagick php-imap php-memcache  php-pspell php-sqlite3 php-tidy php-xmlrpc php-xsl php-mbstring
 
 composer-2
 ----------
