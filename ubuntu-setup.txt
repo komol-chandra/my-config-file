@@ -47,6 +47,6 @@ git setup
 git config credential.helper store
 or
 git config credential.helper cache
-git config --global user.name "your_github_username"
-git config --global user.email "your_github_email"
+git config --global user.name "komol-chandra"
+git config --global user.email "kiri2kaofficial@gmail.com"
 git config -l
