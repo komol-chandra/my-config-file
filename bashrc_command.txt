@@ -1,0 +1,44 @@
+# php server aliases
+
+alias ps='php artisan serve'
+alias pa='php artisan'
+alias pa-c='php artisan optimize:clear'
+
+# server aliases
+
+alias lampp='sudo /opt/lampp/lampp start'
+alias lampp-stop='sudo /opt/lampp/lampp stop'
+alias lampp-restart='sudo /opt/lampp/lampp restart'
+alias a-stop='sudo service apache2 stop'
+alias a-start='sudo service apache2 start'
+alias a-restart='sudo service apache2 restart'
+
+# node server 
+
+alias nrw='npm run watch'
+alias nrd='npm run dev'
+alias nrb='npm run build'
+alias ts-w='tsc -w'
+
+# git aliases
+
+alias pull='git pull origin'
+alias commit='git commit -m'
+alias branch='git checkout -b'
+alias add='git add .'
+alias push='git push origin'
+
+alias git-null-commit='git commit --allow-empty -m "Trigger rebuild"'
+alias c='git checkout'
+alias b-css='npm run build:css'
+alias remove='git stash'
+alias save='git config --global credential.helper store'
+alias remove-pull='git reset --hard HEAD^1'
+alias c-code='gcc print_scan.c -o print_scan && ./print_scan'
+
+
+
+
+
+
+
