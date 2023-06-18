@@ -1,52 +1,121 @@
-xampp setup
------------
+|------------------------------------------------|
+|	
+|	Install Xampp Setup	
+|
+-------------------------------------------------| 
 
 sudo chmod +x xampp-linux-x64-7.4.7-0-installer.run
 sudo su
 ./xampp-linux-x64-7.4.7-0-installer.run
+
 sudo chmod -R 777 /opt/lampp/htdocs
+
 sudo /opt/lampp/lampp start
 sudo /opt/lampp/uninstall
 
+
+|------------------------------------------------------------|
+|	
+|			Install PHP & Package
+|
+|	we need to install this after php xampp 		
+|
+-------------------------------------------------------------|
+
 sudo apt install php-dom php-fpm php-mysql php-zip php-mysql php-curl php-gd php-intl php-imagick php-imap php-memcache  php-pspell php-sqlite3 php-tidy php-xmlrpc php-xsl php-mbstring
+___
 
-composer-2
-----------
-sudo apt update && sudo apt install wget php-cli php-zip unzip curl
-curl -sS https://getcomposer.org/installer |php
-sudo mv composer.phar /usr/local/bin/composer
+OR	
+___
 
-node js
---------
+sudo apt install php8.1-dom php8.1-fpm php8.1-mysql php8.1-zip  php8.1-curl php8.1-gd php8.1-intl php8.1-imagick php8.1-imap php8.1-memcache  php8.1-pspell php8.1-sqlite3 php8.1-tidy php8.1-xmlrpc php8.1-xsl php8.1-mbstring php8.1-cli
+
+
+|------------------------------------------------------------|
+|	
+|			Install Composer
+|
+|	we need to install this after php install complete 		
+|
+-------------------------------------------------------------|
+
+sudo apt update
+sudo apt install php8.1-cli unzip
+
+cd ~
+curl -sS https://getcomposer.org/installer -o /tmp/composer-setup.php
+
+HASH=`curl -sS https://composer.github.io/installer.sig`
+php -r "if (hash_file('SHA384', '/tmp/composer-setup.php') === '$HASH') { echo 'Installer verified'; } else { echo 'Installer corrupt'; unlink('composer-setup.php'); } echo PHP_EOL;"
+
+sudo php /tmp/composer-setup.php --install-dir=/usr/local/bin --filename=composer
+composer
+
+
+|------------------------------------------------------------|
+|	
+|			Install NodeJs
+|
+|	we need to install this after php install complete 		
+|
+-------------------------------------------------------------|
 curl -fsSL https://deb.nodesource.com/setup_lts.x | sudo -E bash -
 sudo apt-get install -y nodejs
 
-Install oh-my-zsh now
---------
+
+
+|------------------------------------------------------------|
+|	
+|			Setup Git & Access Tocken
+|
+|	we need to install this after php install complete 		
+|
+-------------------------------------------------------------|
+
+sudo apt update && upgrade
+sudo apt install git
+ 
+git config --global user.name "komol-chandra"
+git config --global user.email "kiri2kaofficial@gmail.com"
+git config -l
+
+git config credential.helper store
+git config credential.helper cache
+
+cd ~/.ssh
+ssh-keygen -o -t rsa -C "kiri2kaofficial@gmail.com"
+cat id_rsa.pub
+
+https://www.coachdevops.com/2019/09/how-to-setup-ssh-keys-in-bitbucket-and.html
+
+
+
+|------------------------------------------------------------|
+|	
+|			Install unrar file		
+|
+-------------------------------------------------------------|
+sudo apt install unrar
+sudo unrar e -r  rarfilename_with_extension
+
+|------------------------------------------------------------|
+|	
+|			Install oh-my-zsh		
+|
+-------------------------------------------------------------|
 sudo apt-get update
 sudo apt-get install zsh
 sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 
-Bitbucket sshkey setup
-----------------------
-https://www.coachdevops.com/2019/09/how-to-setup-ssh-keys-in-bitbucket-and.html
 
-Install Code::Blocks
----------------------
-sudo apt install codeblocks
-wget http://security.ubuntu.com/ubuntu/pool/universe/c/codeblocks/codeblocks_20.03-3_amd64.deb
-sudo dpkg -i codeblocks_20.03-3_amd64.deb
 
-unrar file
---------------
-sudo apt install unrar
-sudo unrar e -r  rarfilename_with_extension
 
-git setup
------------------
-git config credential.helper store
-or
-git config credential.helper cache
-git config --global user.name "your_github_username"
-git config --global user.email "your_github_email"
-git config -l
+
+
+
+
+
+
+
+
+

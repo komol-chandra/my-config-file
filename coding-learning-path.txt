@@ -1,6 +1,0 @@
-JavaScript 
-----------------
-1.JavaScript Bangla Tutorial (Learn with Sumit)
- 2.play with DOM
- 3.Think in a JavaScript way in Bangla 
- 4.Modern JavaScript Syntaxes in Bangla 
